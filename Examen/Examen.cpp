@@ -14,16 +14,3 @@ int main() {
     polov = (int)(length / 2);
    
     //polov = 
-    for (sim = 0; sim < polov; sim++)
-    {
-        if (Word[sim] != Word[length - sim - 1])
-        {
-            check = false;
-            break;
-        }
-    }
-    if (check)
-        cout << "\Word " << Word << " is palindrom.\n";
-    else
-        cout << "\Word " << Word << " is not palindrom.\n";
-}
