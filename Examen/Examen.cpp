@@ -7,7 +7,7 @@ int polov, length = 0, sim;
 bool check = true;
 
 int main() {
-    cout << "Enter a word:";
+    cout << "Enter a word, 50 or less letters:";
     cin >> Word;
     while (Word[length])//dovd
         length++;
